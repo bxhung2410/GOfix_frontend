@@ -1,0 +1,157 @@
+/* -------- reusable ----------- */
+/*-------------------------------------*/
+.border-radius-left-25{
+    border-radius: 25px 0 0 25px;
+}
+
+.border-radius-right-25{
+    border-radius: 0 25px 25px 0;
+}
+
+.btn-grey-color{
+    background: #f1f1f1;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.font-weight-bold{
+    font-weight: 700 !important;
+}
+
+.gf-h1{
+    font-size: 70px;
+    font-weight: 900;
+    color: black;
+}
+
+p{
+    font-size: 18px;
+}
+
+.color-ed4f1f{
+    color: #ed4f1f;
+}
+
+
+
+
+/*-------------- navbar ------------------*/
+/*-------------------------------------*/
+.container-header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 70px;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.navbar-gofix{
+    max-width: 1237px;
+}
+
+.form-navbar .search-input{
+    background: #f1f1f1;
+}
+
+.search-input{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-color-nav, .btn-color-nav:hover {
+    background: #ed4f1f;
+    color: white;
+    padding: 8px 22px;
+}
+
+
+
+
+
+/*----------------body------------------*/
+/*-------------------------------------*/
+.gf-top{
+    height: 70px;
+}
+
+.gf-home-page{
+    max-width: 1920px;
+}
+
+.gf-home-page .blank-building{
+    background-image: url("https://www.gofix.com.sg/assets/blank-building-0aed6fe3ad75d8ea9213cac27e79db38641dbf78e9389be9d1fc3e464a90c9a6.webp");
+    background-repeat:no-repeat ;
+    background-position: bottom;
+}
+
+.gf-banner{
+    max-width: 1237px;
+}
+
+.home_tile{
+    padding: 70px 10px;
+}
+
+.gf-remain{
+    max-width: 1237px;
+}
+
+.text-title p{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.text-desc{
+    height: 69px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    line-height: 23px;
+}
+
+.btn-know-more{
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: white;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    line-height: 25px;
+    text-align: center;
+}
+
+
+
+/* ---------footer -------------- */
+/* ------------------------------ */
+footer{
+    padding-top: 40px;
+    padding-bottom: 100px;
+    max-width: 1920px;
+    margin: auto;
+}
+
+footer .nav-item{
+    padding-right: 18px;
+}
+
+.font-size-footer{
+    font-size: 18px;
+}
+
+.link-content{
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+.link-content a{
+    color: black;
+    text-decoration: none;
+}
+
+.link-content a:hover{
+    text-decoration:underline;
+}
+
+.social-media-icons{
+    float: right;
+}
